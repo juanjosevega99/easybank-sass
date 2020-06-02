@@ -141,6 +141,14 @@
   text-align: center;
   flex: 1;
 }
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+  .menu__button {
+    display: none;
+  }
+}
 
 .why {
   text-align: center;

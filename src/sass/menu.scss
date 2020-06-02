@@ -54,5 +54,10 @@
       }
     }
   }
-  
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    &__button {
+      display: none;
+    }
+  }
 }
