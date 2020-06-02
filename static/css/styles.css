@@ -63,6 +63,20 @@
     background-size: cover;
   }
 }
+@media screen and (min-width: 1024) {
+  .hero__imageSrc {
+    display: block;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+  }
+  .hero__image {
+    background: none;
+    left: 150px;
+    right: 0;
+    top: 0;
+  }
+}
 
 .menu {
   display: none;

@@ -42,5 +42,18 @@
       background-size: cover;
     }
   }
-  
+  @media screen and (min-width: 1024) {
+    &__imageSrc {
+      display: block;
+      position: relative;
+      top: -150px;
+      z-index: 1;
+    }
+    &__image {
+      background: none;
+      left: 150px;
+      right: 0;
+      top: 0;
+    }
+  }
 }
