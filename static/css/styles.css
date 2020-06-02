@@ -29,7 +29,7 @@
   height: 300px;
   margin: 0 calc(-1 * var(--wrapperSpace));
   background: url("../images/image-mockups.png") center bottom no-repeat, url("../images/bg-intro-mobile.svg") center no-repeat;
-  background-size: 345px cover;
+  background-size: 345px, cover;
   margin-bottom: 1.2em;
 }
 .hero__imageSrc {
@@ -138,6 +138,35 @@
   width: 100%;
   object-fit: cover;
   display: block;
+}
+
+.footer {
+  background: var(--darkBlue);
+  color: var(--white);
+  padding: 2em 0;
+  text-align: center;
+}
+.footer__logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+.footer__link {
+  display: block;
+  color: var(--gray);
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+.footer__social {
+  display: grid;
+  grid-template-columns: repeat(5, 25px);
+  -ms-grid-column-gap: 1em;
+  justify-content: center;
+  margin: 2.5em 0;
+}
+.footer__copyright {
+  color: var(--grayBlue);
+  margin: 2.5em;
 }
 
 :root {
