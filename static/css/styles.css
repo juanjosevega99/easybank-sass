@@ -175,6 +175,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 1024px) {
+  .why__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 .latestArticles {
   padding: 5em o;
