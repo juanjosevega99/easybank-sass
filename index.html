@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/styles.css">
 </head>
+
 <body>
   <header class="header">
     <div class="wrapper">
-      <div class="hero__content">
+      <div class="header__content">
           <img class="header__logo" src="./static/images/logo.svg" alt="">
           <input type="checkbox" id="menu" class="menu__checkbox">
           <ul class="menu">
@@ -30,20 +32,24 @@
               <a href="">Careers</a>
             </li>
           </ul>
-        <div class="hero__image">
-          <img class="hero__imageSrc" src="./static/images/image-mockups.png" alt="">
-        </div>
+          <button class="button">request invite</button>
+          <label for="menu" class="menu__button"></label>
       </div>
     </div>
   </header>
   <section class="hero is-hidden">
-    <h1 class="title__h1">Next generation digital banking</h1>
-    <p class="copy">Take your financial life online. Your Easybank account will be a one-stop-shop for spending.
-      saving,
-      budgeting,
-      investing, and much more.
-    </p>
-    <button class="button">Request Invite</button>
+    <div class="wrapper">
+      <div class="hero__content">
+        <div class="hero__image">
+          <img class="hero__imageSrc" src="./static/images/image-mockups.png" alt="">
+        </div>
+        <div class="hero__description">
+          <h1 class="title__h1">Next generation digital banking</h1>
+          <p class="copy">Take your financial life online. Your Easybank account will be a one-stop-shop for spending. saving, budgeting, investing, and much more.</p>
+          <button class="button">Request Invite</button>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="why is-hidden">
     <div class="wrapper">
