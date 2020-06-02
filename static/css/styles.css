@@ -17,6 +17,11 @@ body {
   overflow-x: hidden;
 }
 
+.copy {
+  line-height: 1.7;
+  font-size: 0.9em;
+}
+
 .hero {
   text-align: center;
 }
