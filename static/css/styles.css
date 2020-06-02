@@ -62,7 +62,6 @@
 .menu__checkbox:checked ~ .menu__button {
   background: url("../images/icon-close-svg") no-repeat center;
 }
-
 .why {
   text-align: center;
   background: var(--gray);
