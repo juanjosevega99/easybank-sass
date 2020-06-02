@@ -1,6 +1,7 @@
 @import "./header.scss";
 @import "./hero.scss";
 @import "./menu.scss";
+@import "./why.scss";
 
 :root {
   --darkBlue: hsl(233, 26%, 24%);
@@ -24,8 +25,9 @@ body {
   line-height: 1.7;
   font-size: .9em;
 }
-.hero {
-  text-align: center;
+
+.is-hidden {
+  display: none !important;
 }
 
 .wrapper {
