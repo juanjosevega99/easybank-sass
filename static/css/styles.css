@@ -9,6 +9,13 @@
 .header__logo {
   align-self: center;
 }
+.header .button {
+  display: none;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
 
 .hero {
   text-align: center;
@@ -39,6 +46,21 @@
   width: 40px;
   height: 40px;
   background: url("../images/icon-hamburger.svg") no-repeat center;
+}
+.menu a {
+  text-decoration: none;
+  color: var(--grayBlue);
+  padding: 0 0.8em;
+}
+.menu__item {
+  display: flex;
+  align-items: center;
+}
+.menu__checkbox {
+  display: none;
+}
+.menu__checkbox:checked ~ .menu__button {
+  background: url("../images/icon-close-svg") no-repeat center;
 }
 
 .why {

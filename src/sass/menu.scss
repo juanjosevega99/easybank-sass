@@ -8,4 +8,21 @@
     height: 40px;
     background: url('../images/icon-hamburger.svg') no-repeat center;
   }
+  a {
+    text-decoration: none;
+    color: var(--grayBlue);
+    padding: 0 .8em;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__checkbox {
+    display: none;
+    &:checked {
+      & ~ .menu__button {
+        background: url('../images/icon-close-svg') no-repeat center;
+      }
+    }
+  }
 }
