@@ -8,4 +8,21 @@
     margin: auto;
     margin-bottom: 2em;
   }
+  &__link {
+    display: block;
+    color: var(--gray);
+    text-decoration: none;
+    margin-bottom: 2em;
+  }
+  &__social {
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    -ms-grid-column-gap: 1em;
+    justify-content: center;
+    margin: 2.5em 0;
+  }
+  &__copyright {
+    color: var(--grayBlue);
+    margin: 2.5em;
+  }
 }
